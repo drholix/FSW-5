@@ -1,0 +1,132 @@
+body {
+  background-color: #9c835f;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.back-game {
+  width: 4rem;
+  margin-left: 2rem;
+}
+
+.judul {
+  color: #f9b23d;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Open Sans';
+}
+
+.user img {
+  padding: 0.4rem;
+  margin: 1rem;
+}
+.comp img {
+  padding: 0.4rem;
+  margin: 1rem;
+}
+
+.user{
+  margin: auto;
+  width: 62%;
+}
+
+.comp{
+  margin: auto;
+  width: 62%;
+}
+
+button {
+  border-radius: 1rem;
+}
+
+.text-player-com {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.kertas-m {
+  padding: .8rem 0;
+}
+
+.vs h2 {
+  position: relative;
+  top: 250px;
+  font-weight: bold;
+  font-size: 4.9rem;
+  color: #bd0000;
+}
+
+.msg-win-lose {
+  /* display: flex;
+  width: 17rem;
+  height: 8rem;
+  font-size: 3rem;
+  color: white;
+  transform: rotate(-20deg);
+  transition: all 0.5s;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #4c9654;
+  position: relative; */
+  position: relative;
+  top: 250px;
+  margin: auto;
+  padding-top: 26px;
+  text-align: center;
+  width: 17.8rem;
+  height: 8rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #4C9654;
+  transform: rotate(-20deg);
+  color: white;
+
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+.draw {
+  color: white;
+  position: relative;
+  top: 250px;
+  margin: auto;
+  padding-top: 26px;
+  text-align: center;
+  width: 17.8rem;
+  height: 8rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #035B0C;
+  transform: rotate(-20deg);
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+
+
+
+.user-hand {
+  cursor: pointer;
+}
+
+.click-bg {
+  width: 9.1;
+  height: 7.5rem;
+  display: inline-block;
+}
+
+.border {
+  background-color: #c4c4c4 !important;
+  border-radius: 30px !important;
+}
+
+.reset img {
+  background: transparent;
+  width: 4.5rem;
+  position: relative;
+  top: 500px;
+  cursor: pointer;
+}
