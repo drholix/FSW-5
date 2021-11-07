@@ -29,7 +29,8 @@
           <div class="text-center mb-5 mt-4">
             <a href="/"><button type="submit" class="btn btn-primary px-4 mb-3">Log in</button></a>
             <br />
-            <% if(msg == 'fail') { %> <%- include('./sub-views/msg.ejs') %> <% } %>
+            <% if(msgUser == 'fail') { %> <%- include('./sub-views/msgUser.ejs') %> <% } %>
+            <% if(msgPassword == 'fail1') { %> <%- include('./sub-views/msgPassword.ejs') %> <% } %>
           </div>
         </form>
       </div>

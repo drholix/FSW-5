@@ -17,7 +17,7 @@ Dibuat dengan ExpressJS & EJS
 * Ketika mengakses route `/` dengan metode GET, pengguna akan dialihkan ke halaman index.
 * Ketika mengakses route `/game` dengan metode GET, pengguna akan dialihkan ke halaman game.
 * Ketika mengakses route `/login` dengan metode GET, pengguna akan dialihkan ke halaman login.
-* Ketika mengirim form ke route `/login` dengan metode POST, server akan membaca `email` & `password` kemudian mencocokkannya dengan data `users.json`.
+* Ketika mengirim form ke route `/login` dengan metode POST, server akan membaca `username` & `password` kemudian mencocokkannya dengan data `user-db.json`.
 * Ketika mengakses route `/users` dengan metode GET, pengguna akan melihat daftar users yang terdaftar dalam bentuk json.
 
 ### Cara menggunakan
