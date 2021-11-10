@@ -1,5 +1,5 @@
 # FSWD-Chapter-5-ExpressJS-EJS
-Alief Kurniawan November 2021
+Alief Kurniawan
 
 Dibuat dengan ExpressJS & EJS
 
